@@ -1,3 +1,6 @@
+//MIT License
+//Copyright (c) 2023 Syed Noor Ali
+
 #include <iostream>
 using namespace std;
 
