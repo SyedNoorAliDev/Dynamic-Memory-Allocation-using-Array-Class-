@@ -13,11 +13,11 @@ class Array{
         array = new int[size];
         this->size = size;
     }
-    float checkPc(){
+    float checkPercentage(){
         float f = (((this->add+1)/this->size) * 100);
         return f;
     }
-    void addArray(int n){
+    void addToArray(int n){
         if (add<0){
             add = 0;
         }
@@ -29,7 +29,7 @@ class Array{
             resize(2*size);
         }
     }
-    void remArray(){
+    void removeFromArray(){
         if (add<0){
             cout<<endl<<"All values removed already!"<<endl;
         }
